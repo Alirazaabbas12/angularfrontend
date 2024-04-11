@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body basic-info">
+      <h4 class="card-title">Basic Information</h4>
+      <div class="info-row">
+        <strong>Email:</strong> aligosheee@gmail.com
+      </div>
+      <div class="info-row">
+        <strong>Phone:</strong> +92-3341942016
+      </div>
+      <div class="info-row">
+        <strong>Permanent Address:</strong> Haleem Colony, Eid Gha, Dera Ismail Khan, KPK
+      </div>
+      <div class="info-row">
+        <strong>Language:</strong> English, Urdu
+      </div>
+      <div class="info-row">
+        <strong>Current Address:</strong> Gulberg, Lahore
+      </div>
+    </div>
+    <div class="card-body about">
+      <h4 class="card-title">About</h4>
+      <ul>
+        <li *ngFor="let m of about2 | split">{{ m }}</li>
+      </ul>
+      <p>{{ about1 }}</p>
+    </div>
+  </div>
+</div>
